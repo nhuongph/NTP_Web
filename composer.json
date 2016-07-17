@@ -21,9 +21,7 @@
         "symfony/dom-crawler": "2.8.*|3.0.*",
         "zizaco/entrust": "5.2.x-dev",
         "maatwebsite/excel": "~2.1.0",
-        "guzzlehttp/guzzle": "~5.3|~6.0",
-        "xethron/migrations-generator": "dev-l5",
-        "way/generators": "dev-feature/laravel-five-stable"
+        "guzzlehttp/guzzle": "~5.3|~6.0"
     },
     "autoload": {
         "classmap": [
@@ -61,19 +59,5 @@
     },
     "config": {
         "preferred-install": "dist"
-    },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "nhuongph/NTP_Web",
-                "version": "dev-master",
-                "source": {
-                    "url": "git@github.com:nhuongph/NTP_Web.git",
-                    "type": "git",
-                    "reference": "origin/master"
-                }
-            }
-        }
-    ]
+    }
 }
